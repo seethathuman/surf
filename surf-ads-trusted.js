@@ -24,7 +24,7 @@ const MessagesEnum = {
 };
 
 
-const UNTRUSTED_ORIGIN = './untrusted/surf';
+const UNTRUSTED_ORIGIN = 'https://seethathuman.github.io/surf/untrusted/surf';
 
 let surfADSHandler = null;
 
