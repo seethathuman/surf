@@ -1,4 +1,4 @@
-import {loadTimeData} from '//resources/js/load_time_data.js';
+import {loadTimeData} from './resources/js/load_time_data.js';
 loadTimeData.data = {
     "actionBack": "Back to menu",
     "actionCancel": "Cancel",
