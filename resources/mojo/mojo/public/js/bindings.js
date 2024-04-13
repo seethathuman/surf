@@ -1440,7 +1440,7 @@ mojo.internal.interfaceSupport.InterfaceRemoteBase = class {
         return this.endpoint_
     }
     bindNewPipeAndPassReceiver() {
-        let {handle0: e, handle1: n} = Mojo.createMessagePipe();
+        let {handle0: e, handle1: n} = mojo.createMessagePipe();
         return this.bindHandle(e),
         new this.requestType_(mojo.internal.interfaceSupport.createEndpoint(n))
     }
