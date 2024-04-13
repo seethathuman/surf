@@ -24,7 +24,7 @@ const MessagesEnum = {
 };
 
 
-const UNTRUSTED_ORIGIN = 'chrome-untrusted://surf';
+const UNTRUSTED_ORIGIN = './untrusted/surf';
 
 let surfADSHandler = null;
 
